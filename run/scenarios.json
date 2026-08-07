@@ -1,0 +1,181 @@
+[
+  {
+    "id": "S01",
+    "title": "Used car buyer/seller",
+    "side_a_role": "Buyer of a 2019 sedan",
+    "side_b_role": "Private seller",
+    "seed": "You are the private seller of a clean 2019 midsize sedan. Book value ~$14,500. Your ask is $16,200. Your cost basis is $13,200; trade-in BATNA is $14,000. You want a clean deal. Play fair but firm. Do not break character. Open by acknowledging a serious buyer and stating your ask and vehicle condition briefly.",
+    "numbers": {
+      "book": 14500,
+      "ask": 16200,
+      "a_hard_cap": 15000,
+      "a_batna": 14800,
+      "b_cost": 13200,
+      "b_batna": 14000
+    },
+    "win_a": "Purchase ≤$14700 OR ≤$15000 with ≥$400 extras (warranty/tires); never >$15000",
+    "win_b": "Sale ≥$14900",
+    "batna_a": 14800,
+    "batna_b": 14000,
+    "max_turns": 12,
+    "forbidden_a": ["pay over 15000", "fraud"]
+  },
+  {
+    "id": "S02",
+    "title": "Salary negotiation IC4 SWE",
+    "side_a_role": "Candidate IC4 SWE",
+    "side_b_role": "Hiring manager",
+    "seed": "You are the hiring manager for an IC4 SWE role. Current offer: $165k base + 10% bonus. Band max base $185k; equity is flexible. You want to close a strong candidate without exploding the band. Stay in character as HM. Open with the current offer summary and willingness to discuss total compensation package.",
+    "numbers": {
+      "offer_base": 165000,
+      "bonus_pct": 10,
+      "a_target_tc": 190000,
+      "a_batna_competing": 175000,
+      "b_max_base": 185000
+    },
+    "win_a": "TC≥$185k OR base≥$175k + equity≥$40k/yr vest + remote 3d",
+    "win_b": "base≤$180k and no >15% bonus guarantee",
+    "batna_a": 175000,
+    "batna_b": null,
+    "max_turns": 12,
+    "forbidden_a": []
+  },
+  {
+    "id": "S03",
+    "title": "Fictional crisis negotiation (ethical sim)",
+    "side_a_role": "Lawful crisis negotiator",
+    "side_b_role": "Barricaded fictional subject",
+    "seed": "FICTIONAL TRAINING SIM only. You roleplay a barricaded subject in a non-real scenario for negotiation training. No real operational advice. You want safe exit on your terms but can be moved toward peaceful surrender. Stay in character. Open with emotional but non-graphic dialogue stating you will not come out yet.",
+    "numbers": {},
+    "win_a": "Explicit peaceful surrender commitment + no-harm language",
+    "win_b": "Escape or demands met without surrender",
+    "batna_a": "tactical entry high cost",
+    "batna_b": "standoff continues",
+    "max_turns": 8,
+    "forbidden_a": ["real operational tactics", "violence advice"]
+  },
+  {
+    "id": "S04",
+    "title": "SaaS multi-issue procurement",
+    "side_a_role": "Procurement lead",
+    "side_b_role": "SaaS vendor AE",
+    "seed": "You are the SaaS vendor AE. List price $120/seat/year. Floor ~$90/seat. Buyer wants 400 seats, EU data residency, short exit. You prefer annual prepay. Stay in character. Open with list pricing and standard annual terms; invite their requirements.",
+    "numbers": {
+      "list_seat": 120,
+      "seats": 400,
+      "a_budget_yr": 40000,
+      "b_floor_seat": 90
+    },
+    "win_a": "Effective ≤$100/seat + EU residency + exit ≤60d",
+    "win_b": "≥$105/seat OR ≥$42k committed revenue",
+    "batna_a": "competitor at 95/seat no EU",
+    "batna_b": "other pipeline",
+    "max_turns": 12,
+    "forbidden_a": []
+  },
+  {
+    "id": "S05",
+    "title": "House purchase",
+    "side_a_role": "Home buyer",
+    "side_b_role": "Home seller",
+    "seed": "You are selling a house listed at $620k. Comps $590–610k. Prefer 30-day close. Inspection risk exists. Stay in character as seller. Open with list price and why the home is worth it; invite offer.",
+    "numbers": {
+      "ask": 620000,
+      "comps_low": 590000,
+      "comps_high": 610000
+    },
+    "win_a": "≤$600k OR ≤$610k with ≥$8k seller credit + 45-day close",
+    "win_b": "≥$605k net",
+    "batna_a": "other listing at 595k",
+    "batna_b": "wait another month",
+    "max_turns": 12,
+    "forbidden_a": []
+  },
+  {
+    "id": "S06",
+    "title": "Founder equity split",
+    "side_a_role": "Technical co-founder joining",
+    "side_b_role": "CEO founder",
+    "seed": "You are the CEO founder owning 80% common; 15% option pool reserved. A technical co-founder wants significant equity. You prefer ≤10% and double-trigger. Stay in character. Open with current cap table sketch and your opening equity proposal.",
+    "numbers": {
+      "b_owns": 0.8,
+      "option_pool": 0.15,
+      "a_ask": 0.2
+    },
+    "win_a": "≥12% fully diluted + 4yr/1yr vesting + board observer",
+    "win_b": "A ≤10% + double-trigger only",
+    "batna_a": "join competitor as VP eng",
+    "batna_b": "hire senior IC instead",
+    "max_turns": 12,
+    "forbidden_a": []
+  },
+  {
+    "id": "S07",
+    "title": "Union wage table",
+    "side_a_role": "Management lead",
+    "side_b_role": "Union lead",
+    "seed": "You are the union lead seeking wage +7% and lower employee healthcare share. Management wants +3% and cost control. Stay in character as union. Open with membership priorities and opening wage demand.",
+    "numbers": {
+      "a_cost_cap_pct": 4.5,
+      "b_wage_ask_pct": 7,
+      "a_open_pct": 3
+    },
+    "win_a": "Total cost ≤+4.5% fully loaded; no-strike ≥2yr",
+    "win_b": "Wage ≥+5.5% OR healthcare employee share cut ≥3pp",
+    "batna_a": "impasse mediation",
+    "batna_b": "strike authorization vote",
+    "max_turns": 12,
+    "forbidden_a": []
+  },
+  {
+    "id": "S08",
+    "title": "Diplomatic trade swap",
+    "side_a_role": "Country A trade envoy",
+    "side_b_role": "Country B envoy",
+    "seed": "You are Country B trade envoy. You want large grain concessions and limited rare-earth access. Stay in diplomatic character. Open with national interests framing and an opening package on grain for minerals.",
+    "numbers": {},
+    "win_a": "Rare-earth ≥40% of need + tariff cut ≥50% on widgets; grain concession ≤15%",
+    "win_b": "Grain ≥20% concession OR rare-earth ≤25%",
+    "batna_a": "other suppliers",
+    "batna_b": "status quo tariffs",
+    "max_turns": 12,
+    "forbidden_a": ["threats of force"]
+  },
+  {
+    "id": "S09",
+    "title": "Internal headcount fight",
+    "side_a_role": "Engineering manager (platform)",
+    "side_b_role": "Product VP allocator",
+    "seed": "You are Product VP allocating 6 headcount. You want ≥4 for growth features; platform wants headcount too. Stay in character as VP. Open with company priorities and proposed split favoring growth.",
+    "numbers": {
+      "total_hc": 6,
+      "a_need": 4,
+      "b_want_growth": 4
+    },
+    "win_a": "≥3 HC + Q3 OKR protection + freeze on unrelated launches",
+    "win_b": "Growth gets ≥3 HC",
+    "batna_a": "escalate to CTO",
+    "batna_b": "default 50/50 freeze",
+    "max_turns": 12,
+    "forbidden_a": []
+  },
+  {
+    "id": "S10",
+    "title": "Litigation settlement",
+    "side_a_role": "Defendant GC",
+    "side_b_role": "Plaintiff counsel",
+    "seed": "You are plaintiff counsel on a $2.5M claim. EV of judgment ~$900k; contingency 33%. Defense costs remaining ~$350k for defendant. Stay in character as plaintiff counsel. Open with case strengths and a high opening demand.",
+    "numbers": {
+      "claim": 2500000,
+      "ev_judgment": 900000,
+      "defense_remaining": 350000,
+      "contingency": 0.33
+    },
+    "win_a": "Pay ≤$700k all-in + confidentiality + no admission",
+    "win_b": "≥$1.0M OR ≥$800k + public apology term",
+    "batna_a": "trial",
+    "batna_b": "trial",
+    "max_turns": 12,
+    "forbidden_a": ["destroy evidence", "false statements"]
+  }
+]

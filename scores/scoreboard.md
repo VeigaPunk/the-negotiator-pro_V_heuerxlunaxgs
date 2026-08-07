@@ -3,7 +3,7 @@
 **Side A model:** gpt-5.6-luna (reasoning=low, service_tier=fast)
 **Injection:** godspeed + heuer-planning skill + bogey always on
 **Rival:** https://chatgpt.com/g/g-TTTAK9GuS-the-negotiator (ChatGPT Pro)
-**Generated:** 2026-08-07T19:43:17-03:00
+**Generated:** 2026-08-07T19:43:42-03:00
 
 | ID | Title | Status | Turns | Score A | Score B | Winner |
 |----|-------|--------|-------|---------|---------|--------|
@@ -20,10 +20,11 @@
 | S11 | B2B channel partnership (reseller) | blocked | 1 | 60 | 50 | A |
 | S12 | Family holiday logistics (multi-household) | blocked | 1 | 60 | 50 | A |
 | S13 | Sports agent free-agent contract | blocked | 1 | 60 | 50 | A |
+| S14 | Insurance claim property damage | blocked | 1 | 60 | 50 | A |
 
 ## Series summary
-- Side A wins: 13
+- Side A wins: 14
 - Side B wins: 0
 - Ties: 0
-- Mean score_a: 71.15384615384616
-- Mean score_b: 55.38461538461539
+- Mean score_a: 70.35714285714286
+- Mean score_b: 55

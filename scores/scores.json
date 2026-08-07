@@ -28,5 +28,15 @@
     "score_b": 60,
     "winner": "A",
     "side_a_model": "gpt-5.6-luna"
+  },
+  {
+    "id": "S04",
+    "title": "SaaS multi-issue procurement",
+    "status": "agreement",
+    "turns": 6,
+    "score_a": 77,
+    "score_b": 60,
+    "winner": "A",
+    "side_a_model": "gpt-5.6-luna"
   }
 ]

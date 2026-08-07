@@ -4,7 +4,7 @@
   "cdp": "http://127.0.0.1:9222",
   "side_a_model": "gpt-5.6-luna",
   "max_turns": 12,
-  "scenario_idx": 11,
+  "scenario_idx": 12,
   "turn": 1,
   "status": "running",
   "completed_scenarios": [
@@ -19,7 +19,8 @@
     "S09",
     "S10",
     "S11",
-    "S12"
+    "S12",
+    "S13"
   ],
   "last_error": null,
   "n_scenarios": 20,

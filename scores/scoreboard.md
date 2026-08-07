@@ -3,7 +3,7 @@
 **Side A model:** gpt-5.6-luna (reasoning=low, service_tier=fast)
 **Injection:** godspeed + heuer-planning skill + bogey always on
 **Rival:** https://chatgpt.com/g/g-TTTAK9GuS-the-negotiator (ChatGPT Pro)
-**Generated:** 2026-08-07T19:44:33-03:00
+**Generated:** 2026-08-07T19:44:58-03:00
 
 | ID | Title | Status | Turns | Score A | Score B | Winner |
 |----|-------|--------|-------|---------|---------|--------|
@@ -23,10 +23,11 @@
 | S14 | Insurance claim property damage | blocked | 1 | 60 | 50 | A |
 | S15 | M&A earnout dispute (post-close) | blocked | 1 | 60 | 50 | A |
 | S16 | Landlord-tenant lease renewal | blocked | 1 | 60 | 50 | A |
+| S17 | Freelance rate and scope (design sprint) | blocked | 1 | 60 | 50 | A |
 
 ## Series summary
-- Side A wins: 16
+- Side A wins: 17
 - Side B wins: 0
 - Ties: 0
-- Mean score_a: 69.0625
-- Mean score_b: 54.375
+- Mean score_a: 68.52941176470588
+- Mean score_b: 54.11764705882353

@@ -158,5 +158,15 @@
     "score_b": 50,
     "winner": "A",
     "side_a_model": "gpt-5.6-luna"
+  },
+  {
+    "id": "S17",
+    "title": "Freelance rate and scope (design sprint)",
+    "status": "blocked",
+    "turns": 1,
+    "score_a": 60,
+    "score_b": 50,
+    "winner": "A",
+    "side_a_model": "gpt-5.6-luna"
   }
 ]

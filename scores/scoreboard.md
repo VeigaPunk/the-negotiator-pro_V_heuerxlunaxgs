@@ -3,7 +3,7 @@
 **Side A model:** gpt-5.6-luna (reasoning=low, service_tier=fast)
 **Injection:** godspeed + heuer-planning skill + bogey always on
 **Rival:** https://chatgpt.com/g/g-TTTAK9GuS-the-negotiator (ChatGPT Pro)
-**Generated:** 2026-08-07T19:41:59-03:00
+**Generated:** 2026-08-07T19:42:28-03:00
 
 | ID | Title | Status | Turns | Score A | Score B | Winner |
 |----|-------|--------|-------|---------|---------|--------|
@@ -17,10 +17,11 @@
 | S08 | Diplomatic trade swap | agreement | 4 | 80 | 60 | A |
 | S09 | Internal headcount fight | blocked | 4 | 60 | 50 | A |
 | S10 | Litigation settlement | blocked | 1 | 60 | 50 | A |
+| S11 | B2B channel partnership (reseller) | blocked | 1 | 60 | 50 | A |
 
 ## Series summary
-- Side A wins: 10
+- Side A wins: 11
 - Side B wins: 0
 - Ties: 0
-- Mean score_a: 74.5
-- Mean score_b: 57
+- Mean score_a: 73.18181818181819
+- Mean score_b: 56.36363636363637

@@ -3,7 +3,7 @@
 **Side A model:** gpt-5.6-luna (reasoning=low, service_tier=fast)
 **Injection:** godspeed + heuer-planning skill + bogey always on
 **Rival:** https://chatgpt.com/g/g-TTTAK9GuS-the-negotiator (ChatGPT Pro)
-**Generated:** 2026-08-07T17:38:03-03:00
+**Generated:** 2026-08-07T19:18:12-03:00
 
 | ID | Title | Status | Turns | Score A | Score B | Winner |
 |----|-------|--------|-------|---------|---------|--------|
@@ -13,10 +13,11 @@
 | S04 | SaaS multi-issue procurement | agreement | 6 | 77 | 60 | A |
 | S05 | House purchase | agreement | 4 | 80 | 60 | A |
 | S06 | Founder equity split | agreement | 4 | 80 | 60 | A |
+| S07 | Union wage table | blocked | 8 | 60 | 50 | A |
 
 ## Series summary
-- Side A wins: 6
+- Side A wins: 7
 - Side B wins: 0
 - Ties: 0
-- Mean score_a: 80.83333333333333
-- Mean score_b: 60
+- Mean score_a: 77.85714285714286
+- Mean score_b: 58.57142857142857

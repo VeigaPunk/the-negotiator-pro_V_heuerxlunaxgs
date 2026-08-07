@@ -20,6 +20,7 @@
 8. **Premature "agreement" is a failure mode** — do not declare terminal on Side A alone saying "we have a deal"; require multi-turn substance + clear mutual close or max_turns.
 9. **Rival framing is mandatory turn 1** for every scenario.
 10. **Heuer + Godspeed are always on** for Luna; method labels stay out of the chat paste.
+11. **Bogey tactics are always on** (primary effectiveness lever): plant/inflate a secondary issue, then trade it for real priorities; never bogey hard floors; never name the tactic to the rival.
 
 ---
 

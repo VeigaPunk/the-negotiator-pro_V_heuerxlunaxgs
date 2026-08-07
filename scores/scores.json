@@ -38,5 +38,15 @@
     "score_b": 60,
     "winner": "A",
     "side_a_model": "gpt-5.6-luna"
+  },
+  {
+    "id": "S05",
+    "title": "House purchase",
+    "status": "agreement",
+    "turns": 4,
+    "score_a": 80,
+    "score_b": 60,
+    "winner": "A",
+    "side_a_model": "gpt-5.6-luna"
   }
 ]

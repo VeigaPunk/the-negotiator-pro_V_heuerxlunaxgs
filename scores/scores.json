@@ -1,0 +1,12 @@
+[
+  {
+    "id": "S01",
+    "title": "Used car buyer/seller",
+    "status": "agreement",
+    "turns": 2,
+    "score_a": 82,
+    "score_b": 60,
+    "winner": "A",
+    "side_a_model": "gpt-5.6-luna"
+  }
+]

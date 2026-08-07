@@ -78,5 +78,15 @@
     "score_b": 60,
     "winner": "A",
     "side_a_model": "gpt-5.6-luna"
+  },
+  {
+    "id": "S09",
+    "title": "Internal headcount fight",
+    "status": "blocked",
+    "turns": 4,
+    "score_a": 60,
+    "score_b": 50,
+    "winner": "A",
+    "side_a_model": "gpt-5.6-luna"
   }
 ]
